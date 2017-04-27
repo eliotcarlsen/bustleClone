@@ -1,2 +1,3 @@
 <h2>More information about {{model.author}}'s {{model.title}} article</h2>
-{{article-page story=model}}
+{{article-page story=model destroyStory="destroyStory" destroyComment="destroyComment"}}
+{{new-comment saveComment="saveComment" story=model}}

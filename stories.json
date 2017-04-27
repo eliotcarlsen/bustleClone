@@ -22,5 +22,9 @@
     "date": "4/1/17",
     "featured": false,
     "category": "books"
-  }]
+  }],
+  "comments": [{
+    "user": "Eliot",
+    "comment": "Yes!"
+    }]
 }

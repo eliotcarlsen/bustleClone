@@ -4,3 +4,10 @@
 <p>{{story.body}}</p>
 <p>{{story.date}}</p>
 <p>{{story.category}}</p>
+<button {{action 'delete' story}}>Delete</button>
+<h2>Comments:</h2>
+<ul>
+  {{#each story.comments as |comment|}}
+    {{comment-tile comment=comment destroyComment="destroyComment"}}
+  {{/each}}
+</ul>
